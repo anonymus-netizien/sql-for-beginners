@@ -7,3 +7,4 @@ SELECT
 FROM products
 
 WHERE name LIKE '%Monitor%' AND is_active = true
+ORDER BY price ASC
